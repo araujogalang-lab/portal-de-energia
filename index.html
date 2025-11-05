@@ -2,32 +2,58 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Portal de Energía ✨</title>
+  <title>Portal de Energía 🔆</title>
   <style>
+    /* Estilo general del cuerpo */
     body {
-      background-color: #f9f7ff;
-      color: #4a2c63;
-      text-align: center;
-      font-family: Arial, sans-serif;
+      background-color: #f3ecff;      /* color suave de fondo */
+      color: #4a2c63;                 /* color de texto */
+      font-family: "Segoe UI", Arial, sans-serif;
       margin: 0;
-      padding: 0;
+      height: 100vh;                  /* altura total de la pantalla */
+      display: flex;                  /* usar flexbox */
+      flex-direction: column;         /* organizar en columna */
+      align-items: center;            /* centrar horizontal */
+      justify-content: center;        /* centrar vertical */
+      text-align: center;             /* centrar texto */
     }
+
+    /* Imagen */
     img {
-      width: 250px;
-      margin-top: 40px;
-      border-radius: 20px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      width: 400px;                   /* tamaño más grande */
+      max-width: 90%;                 /* ajusta si la pantalla es pequeña */
+      border-radius: 25px;            /* bordes redondeados */
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* sombra suave */
+      margin-bottom: 30px;            /* espacio debajo */
+      transition: transform 0.3s ease; /* animación suave */
     }
+
+    img:hover {
+      transform: scale(1.05);         /* efecto al pasar el cursor */
+    }
+
+    /* Título */
+    h1 {
+      font-size: 32px;
+      margin: 0;
+    }
+
+    /* Frase */
     p {
-      font-size: 1.2em;
-      margin-top: 20px;
-      padding: 0 20px;
+      font-size: 20px;
+      margin-top: 15px;
+      max-width: 500px;
     }
   </style>
 </head>
 <body>
-  <img src="paz-interior.jpg" alt="Energía y calma">
-  <h1>Bienvenida al Portal de Energía 🌌</h1>
-  <p>“La luz interior no se busca, se despierta.” ✨</p>
+  <!-- Imagen -->
+  <img src="energia y paz.jpg" alt="Energía y calma">
+
+  <!-- Título -->
+  <h1>Bienvenida al Portal de Energía 🔮</h1>
+
+  <!-- Frase -->
+  <p>“La luz interior no se busca, se despierta.” 🔆</p>
 </body>
-</html><img src="paz-interior.jpg" alt="Energía y calma">
+</html>
